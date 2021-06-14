@@ -67,7 +67,7 @@ public class Studentview {
             }
             stu = students.getStudent(index - 1);
             if (stu == null) {
-                System.out.println("无法找到学生客户！");
+                System.out.println("无法找到学生！");
             } else
                 break;
         }
@@ -92,7 +92,7 @@ public class Studentview {
     }
 
     private void deleteStudent() {
-        System.out.println("---------------------删除客户---------------------");
+        System.out.println("---------------------删除学生---------------------");
 
         int index = 0;
         Student stu = null;
